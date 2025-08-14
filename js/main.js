@@ -1,13 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-        const button = document.querySelector(".rm-button-open.ribbon");
-        if (button) {
-            button.click();
-        }
-    }, 50); // 100 ms = 0.1 s
-});
-
-
 (function ($) {
 
 	var safeMod = false;
